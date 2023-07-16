@@ -7,25 +7,6 @@
 \usepackage{hyperref}
 \usepackage{amsmath, amsfonts}
 
-\newcounter{myenumi}
-\renewcommand{\themyenumi}{(\roman{myenumi})}
-\newenvironment{myenumerate}{%
-% stuff for beginning of environment goes here
-\setlength{\parindent}{0pt}% don't indent paragraphs
-\setcounter{myenumi}{0}% restart numbering
-\bigskip% skip a line
-\renewcommand{\item}{% new definition of item
-\par% start a new line
-\refstepcounter{myenumi}% advance counter
-\makebox[2.5em][l]{\themyenumi}% print counter to width of 3em, aligned to left
-}% end of definition of item
-}{% at end of environment
-\par% start new paragraph
-\bigskip% skip a line
-\noindent% don't indent new paragraph
-\ignorespacesafterend% ignore spaces after environment
-}
-
 \begin{document}
 
 \begin{center}
@@ -49,7 +30,7 @@
 
 % \begin{itemize}[leftmargin=*]
 %   \item[]
-    \textbf{\large Senior Data Scientist} \hfill July 2022 - Present\\
+    \textbf{\large Senior Data Scientist} \hfill \textit{July 2022 - Present}\\
     \textit{Nevada National Security Site} 
 
     \begin{itemize} \setlength\itemsep{-0.5em}
@@ -72,7 +53,7 @@
     \end{itemize}
 
 %   \item[]
-    \textbf{\large Graduate Teaching Assistant}  \hfill Janurary 2016 - June 2022 \\
+    \textbf{\large Graduate Teaching Assistant}  \hfill \textit{Janurary 2016 - June 2022} \\
     \textit{Auburn University and University of Nevada Las Vegas}
     \begin{itemize} \setlength\itemsep{-0.5em}
       \item  Instructed courses in College Algebra and Pre-Calculus
