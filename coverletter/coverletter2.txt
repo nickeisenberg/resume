@@ -1,0 +1,17 @@
+To the Hiring Manager,
+
+I completed my PhD in Probability and Stochastic Processes in June 2022 and I am 
+currently working as a senior data scientist at the Nevada National Security 
+Site where my team's main role is to provide machine learning support to the National Labs. 
+My current work projects include topics in computer vision and 
+time-series forecasting and the libraries PyTorch, Scikit-learn, and Scikit-image are all 
+used daily at my position. I am also responsible for maintaining a company-wide 
+SQL database that stores seismic sensor data. 
+
+In addition to my interests in data science, I love playing jazz guitar 
+and rock climbing. I am confident that my diverse skill set and dedication make me a 
+strong fit for this position at hims & hers. Thank you for considering my application. 
+I look forward to the opportunity to discuss my potential contributions.
+
+Best,
+Nick Eisenberg

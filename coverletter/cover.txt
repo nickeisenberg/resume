@@ -1,0 +1,13 @@
+To the hiring manager,
+
+I completed my PhD in Probability and Stochastic Processes in June 2020 and I have been working as a senior data 
+scientist at the Nevada National Security Site in Las Vegas Nevada since July 2022. My two currents work projects
+include topics of computer vision and time-series forecasting, and both projects require extensive use Pytorch, 
+Scikit-learn and Scikit-image. I also am a maintainer of a company wide SQL database that stores seismic sensor 
+information. I am highly proficient in Python, Unix/Linux and SQL, all of which I use daily at my current position. 
+In addition to my interests in data science, I enjoy playing jazz guitar as well as rock climbing.
+
+Thank you very much for taking the time to read through my application and I hope to hear back from you soon.
+
+Best,
+Nick

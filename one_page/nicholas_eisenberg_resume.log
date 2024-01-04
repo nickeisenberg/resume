@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.21)  6 AUG 2023 22:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.21)  2 JAN 2024 12:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/nickeisenberg/GitRepos/Resume/one_page/nicholaseisenbergresume_datascientistIII.tex
-(/Users/nickeisenberg/GitRepos/Resume/one_page/nicholaseisenbergresume_datascientistIII.tex
+**/Users/nickeisenberg/GitRepos/Resume/one_page/nicholas_eisenberg_resume.tex
+(/Users/nickeisenberg/GitRepos/Resume/one_page/nicholas_eisenberg_resume.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-20> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -223,8 +223,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box53
-) (./nicholaseisenbergresume_datascientistIII.aux)
-\openout1 = `nicholaseisenbergresume_datascientistIII.aux'.
+) (./nicholas_eisenberg_resume.aux)
+\openout1 = `nicholas_eisenberg_resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -292,9 +292,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 10.
 LaTeX Info: Redefining \pageref on input line 10.
 LaTeX Info: Redefining \nameref on input line 10.
- (./nicholaseisenbergresume_datascientistIII.out) (./nicholaseisenbergresume_datascientistIII.out)
+ (./nicholas_eisenberg_resume.out) (./nicholas_eisenberg_resume.out)
 \@outlinefile=\write3
-\openout3 = `nicholaseisenbergresume_datascientistIII.out'.
+\openout3 = `nicholas_eisenberg_resume.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -303,27 +303,22 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
+) [1
 
- []
-
-[1
-
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./nicholaseisenbergresume_datascientistIII.aux)
-Package rerunfilecheck Info: File `nicholaseisenbergresume_datascientistIII.out' has not changed.
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./nicholas_eisenberg_resume.aux)
+Package rerunfilecheck Info: File `nicholas_eisenberg_resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  9233 strings out of 478233
- 146056 string characters out of 5843838
- 459226 words of memory out of 5000000
+ 145801 string characters out of 5843838
+ 458151 words of memory out of 5000000
  27385 multiletter control sequences out of 15000+600000
  475823 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,63p,579b,321s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,6n,63p,564b,321s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on nicholaseisenbergresume_datascientistIII.pdf (1 page, 109710 bytes).
+Output written on nicholas_eisenberg_resume.pdf (1 page, 109372 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
