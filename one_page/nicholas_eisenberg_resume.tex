@@ -33,7 +33,33 @@
 \textit{Nevada National Security Site} 
 
 \begin{itemize} \setlength\itemsep{-0.5em}
-  \item
+  \item Devloped a YOLO-based object-detection model in Pytorch that acheived a 
+    80\% MAp evaluation on a in-house thermal-image vehicle dataset. 
+    The model was trained on AWS with four GPUs by leveraging Pytorch's DataParallel.
+
+  \item Designed an anomoly-detection model in Pytorch using an LSTM 
+    variationl-autoencoder to detect component faliure in a pulse-power x-ray 
+    machine. The model accurately predicted the location of a component faliure with 
+    87\%accuracy and cut machine repair times by 50\%.
+
+  \item Applied the U-Net architecture with Pytorch to develop a deblurring model for 
+    a pulse-powered x-ray machine. The model was used applied by the machine operators 
+    and reduced machine configuration time by 30\%.
+
+  \item Took initiative to develop the companies first deep-learning interface that 
+    wrapped Pytorch. 
+    \begin{itemize}
+      \item Introduced a standardized apporach for training, validating and testing 
+        models that ensured reproducibility and model validity.
+      \item Ensured that code written by all collegues could seemlessly be integrated
+        together.
+      \item Supported multi-gpu training with the use of Pytorch's DataParallel.
+    \end{itemize}
+
+  \item Sole developer of a Django web interface, which wrapped Neo4j. The interface
+    gave non-technical staff the ability to query and update the companies Neo4j
+    graph-database without needing to know any query syntax.
+
 \end{itemize}
 
 
