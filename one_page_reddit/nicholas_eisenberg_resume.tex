@@ -1,0 +1,109 @@
+\documentclass[11pt]{article}
+
+\usepackage[left=0.6 in,top=0.4in,right=0.6in,bottom=0.4in]{geometry}
+\usepackage[parfill]{parskip} % Remove paragraph indentation
+
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{amsmath, amsfonts}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{center}
+  \bf \Huge  First Last, Ph.D.
+  \vspace{.1em}
+  \hrule
+\end{center}
+
+\begin{center}
+  \vspace{.4em}
+  702-354-0866 $\Big \Vert$
+  \href{mailto:firstlast@gmail.com}{firstlast@gmail.com} $\Big \Vert$ 
+  \href{https://www.linkedin.com/in/first-last/}{linkedin.com/in/first-last} $\Big \Vert$
+  \href{https://github.com/firstlast}{github.com/firstlast}
+\end{center}
+
+\textbf{\Large Experience}
+\vspace{.3em}
+\hrule
+\vspace{.3em}
+
+\textbf{\large Senior Data Scientist} \hfill \textit{June 2022 - Present}\\
+\textit{Company name} 
+
+\begin{itemize} \setlength\itemsep{-0.5em}
+  \item Developed a YOLO-based object-detection model in PyTorch that achieved a 
+    80\% mAP evaluation on a in-house thermal-image vehicle dataset. 
+
+  \item Designed an anomaly-detection model in PyTorch using an LSTM 
+    variational-autoencoder to detect component failure in a pulse-power x-ray 
+    machine. The model accurately predicted the location of a component failure with 
+    87\% accuracy and cut machine repair times by 50\%.
+
+  \item Applied the U-Net architecture with PyTorch to develop a deblurring model for 
+    a pulse-powered x-ray machine. The model was applied by the machine operators 
+    and reduced machine configuration time by 30\%.
+
+  \item Facilitated the scaling of locally developed models to be trained on our internal
+    high-performance computing (HPC). Would take code written by the other 
+    Data Scientists and Analysts and would refactor so that they could run in a 
+    multi node, multi gpu setting. 
+
+  \item Developed interactive dashboards using Streamlit to give non-technical staff the
+    abilty to interact with the capabilities designed by our team of Data Scientists.
+
+  \item Mentored a summer intern in the development and execution of models on a 
+    HPC cluster, involving multi-node, multi-GPU setups and SLURM resource management.
+
+  \item Sole developer of a Django web interface, which wrapped Neo4j. The interface
+    gave non-technical staff the ability to query and update the company's Neo4j
+    graph-database without needing to know any query syntax.
+
+\end{itemize}
+
+
+\vspace{.3em}
+\textbf{\Large Technical Skills}
+\vspace{.3em}
+\hrule
+\vspace{.3em}
+
+\textbf{Programming Languages:}
+Python, SQL, Bash, Cypher, Lua, \LaTeX
+
+\textbf{Libraries:} 
+PyTorch, Scikit-Learn, Pandas, Scipy, Sqlalchemy, Matplotlib, Plotly, Streamlit, Django
+ 
+
+\textbf{Developer Tools:} Git, AWS, Unix/Linux, Slurm, Vim, Tmux, Neo4j
+
+
+\vspace{.3em}
+\textbf{\Large Education}
+\vspace{.3em}
+\hrule
+\vspace{.3em}
+
+\textbf{University 2 - Ph.D.} \hfill \textit{June 2022} \\
+Research Area: Probability (Stochastic Processes and Partial Differential Equations) \\
+Advisor: \href{http://}{First Last}
+
+\textbf{University 1 - B.S./M.S.} 
+\hfill \textit{December 2015 / January 2018} \\
+Major: Applied Mathematics
+
+\vspace{.3em}
+\textbf{\Large Publications}
+\vspace{.3em}
+\hrule
+\vspace{.3em}
+
+\begin{itemize}[leftmargin=*]
+  \item[1:] Q1 probability and stochastic process journal
+
+  \item[2:] Q2 probability journal
+
+\end{itemize}
+
+\end{document}
