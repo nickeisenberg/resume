@@ -1,0 +1,11 @@
+As a Senior Data Scientist at the Nevada National Security Site, I specialize
+in developing and deploying advanced machine learning models using Python and
+PyTorch to drive data-informed decisions across various operational processes.
+My contributions have included developing object-detection models with YOLO,
+crafting LSTM variational-autoencoders for precise anomaly detection, and
+creating a U-Net based image deblurring model. My role extends beyond
+technical development to enhancing collaboration with non-technical staff,
+given them the power to leverage these technologies for improved decision-making and
+operational efficiency. This engagement has also involved mentoring interns and
+creating a user-friendly Django web interface for more accessible management of
+a Neo4j graph database.

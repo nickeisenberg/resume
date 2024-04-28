@@ -1,0 +1,17 @@
+Dear Hiring Manager,
+
+I am writing to express my interest in the Machine Learning Engineer position
+at Dropbox. With a Ph.D. in Probability and experience in machine learning and
+software development in both Python and Lua, I am well-prepared to contribute
+to Dropbox’s innovative projects. I have extensive experience developing and
+scaling PyTorch models and am proficient with many popular deep learning
+architectures such as Transformers, VAEs, U-Net, and YOLO, as well as deploying
+models in high-performance computing environments like AWS.
+
+I am enthusiastic about the opportunity to leverage my expertise at Dropbox,
+and I look forward to potentially discussing how my background can contribute
+to your team. Thank you for considering my application.
+
+Best regards,
+
+Nicholas Eisenberg

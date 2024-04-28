@@ -1,0 +1,16 @@
+Dear Hiring Manager,
+
+I am writing to express my interest in the Data Scientist position at Stripe.
+With a Ph.D. in Probability and experience in machine learning I am
+well-prepared to contribute to Stripe’s innovative projects. I have extensive
+experience developing and scaling PyTorch models and am proficient with many
+popular deep learning architectures such as Transformers, VAEs, U-Net, and
+YOLO, as well as deploying models in high-performance environments such as AWS.
+
+I am enthusiastic about the opportunity to leverage my expertise at Stripe,
+and I look forward to potentially discussing how my background can contribute
+to your team. Thank you for considering my application.
+
+Best regards,
+
+Nicholas Eisenberg
