@@ -34,10 +34,26 @@
 	      enabling non-technical staff to add nodes and connections to the company's
 	      Neo4j graph database, without knowledge of the query syntax.
 
+  \item Designed an A/B hypothesis-based anomaly detection model using
+        Statsmodels to identify degradation in machine components, utilizing data from
+        continuously streaming sensors. 
+
 	\item Developed interactive dashboards using Streamlit to give
 	      non-technical staff the abilty to interact with the capabilities designed
 	      by our team of Data Scientists.
-\end{itemize}
+
+  \end{itemize}
+
+
+\textbf{Reddit Comment Transformer Classifier}
+(\href{https://github.com/nickeisenberg/reddit_classifier}{GitHub link}) \\
+I developed a transformer-based classifier to determine the subreddit origin
+for a reddit comment. I utilized PRAW to scrape 10,000 comments across 10
+subreddits, where some of the subreddits shared a common theme and employed the
+BertTokenizer to integrate the comments into the model. I created a Flask
+application to interact with the model. The model achieved 73\% accuracy among
+the 10 subreddits.
+
 
 \end{document}
 

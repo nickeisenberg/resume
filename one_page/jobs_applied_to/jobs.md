@@ -9,3 +9,17 @@
 * stripe data scientist
 
 * ArteraAI machine learning engineer
+
+* AirBnb Data Scientist - Algorithms, Payments 
+
+* Stripe MLE
+
+* Apree Health Machine Learning Engineer
+
+* Affirm machine learning engineer
+
+* Coinbase machine learning engineer
+
+* Reddit machine learning engineer
+
+* NeuralMagic machine learning engineer
