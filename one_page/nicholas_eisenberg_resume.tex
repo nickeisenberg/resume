@@ -23,10 +23,6 @@
 \textit{Nevada National Security Site}
 
 \begin{itemize} \setlength\itemsep{-.4em}
-	\item Utilized YOLO v5 to develop an
-	      object-detection model in PyTorch that achieved a 80\% mAP evaluation on an
-	      in-house thermal-image vehicle dataset for a R\&D project.
-
 	\item Designed an anomaly-detection model in PyTorch using an LSTM
 	      variational-autoencoder to detect component failure in a pulse-power x-ray
 	      machine. The model was deployed to the machine operators with Django and Docker
@@ -36,6 +32,10 @@
 	      model for a pulse-powered x-ray machine. The model was applied by the
 	      machine operators and reduced machine configuration time by 30\%.
 
+	\item Utilized YOLO v5 to develop an
+	      object-detection model in PyTorch that achieved a 80\% mAP evaluation on an
+	      in-house thermal-image vehicle dataset for a R\&D project.
+
 	\item Designed an A/B hypothesis-based anomaly detection model using
 	      Statsmodels for a radiation detection R\&D project, utilizing data from
 	      continuously streaming sensors.
@@ -43,7 +43,8 @@
 	\item Enhanced the scalability of models initially prototyped by our team of
 	      Analysts and Data Scientists for training on our internal high-performance
 	      computing (HPC) cluster. My role involved refactoring the existing code to
-	      enable efficient execution in a distributed and parallel setting.
+	      enable efficient execution in a distributed and parallel setting with
+	      PyTorch's DistributedDataParallel.
 
 	\item Developed and deployed a Django web interface with Docker Compose,
 	      enabling non-technical staff to add nodes and connections to the company's
