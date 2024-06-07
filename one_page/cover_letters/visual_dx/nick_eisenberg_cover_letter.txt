@@ -1,0 +1,15 @@
+Dear Hiring Managaer,
+
+I hope this message finds you well. I am writing to express my interest in the Machine Learning Scientist role at VisualDx. As a Senior Data Scientist, my primary focus has been on developing machine learning models in PyTroch for image analysis. Additionally, I hold a PhD in Applied Mathematics, with a specialization in Probability Theory.
+
+At my current position, I have led the development and implementation of machine learning models using PyTorch, focusing on computer vision tasks such as image classification and object detection. These projects have made me proficient with modern deep learning architectures, including Vision-Transformer and YOLO. Additionally, I have experience scaling these models to operate efficiently in high-performance computing environments such as AWS.
+
+Beyond my professional experience, I am a maintainer for the neovim plugin iron.nvim, an interactive REPL plugin written in Lua. 
+
+Thank you for considering my application. I hope to hear from you soon.
+
+Best,
+
+Nicholas Eisenberg 
+nickeisenberg@gmail.com 
+702-354-0866
