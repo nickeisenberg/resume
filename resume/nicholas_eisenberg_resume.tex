@@ -18,38 +18,37 @@
 
 \textbf{\Large Experience} \vspace{.2em} \hrule
 
-\textbf{\large Senior Data Scientist} \hfill \textit{June 2022 - Present}\\
+\textbf{\large Senior Scientist - Machine Learning} \hfill \textit{June 2022 - Present}\\
 \textit{Nevada National Security Site}
 
 \begin{itemize} \setlength\itemsep{-.4em}
-	\item Designed an anomaly-detection model in PyTorch using an LSTM
-	      variational-autoencoder to detect component failure in a pulse-power x-ray
-	      machine. The model was deployed to the machine operators with Django and Docker
-	      and cut machine repair times by 50\%
+  \item \textbf{Retrieval-Augmented Generation (RAG) System for Internal
+    Knowledge Base}: Designed and deployed a RAG system over internal Python/C++
+    codebases and company documents. Parsed source code using \texttt{AST},
+    \texttt{jedi}, and \texttt{clang.cindex} to create structured chunks, encoded
+    them with \texttt{all-MiniLM-L6-v2}, and indexed them using \texttt{hnswlib}
+    for fast vector search. Served the model with \texttt{vLLM} and integrated
+    the system into Open WebUI for accessible querying.
 
-	\item Applied the U-Net architecture with PyTorch to develop a deblurring
-	      model for a pulse-powered x-ray machine. The model was applied by the
-	      machine operators and reduced machine configuration time by 30\%.
-
-	\item Utilized YOLO v5 to develop an
-	      object-detection model in PyTorch that achieved a 80\% mAP evaluation on an
-	      in-house thermal-image vehicle dataset for a R\&D project.
-
-	\item Designed an A/B hypothesis-based anomaly detection model using
-	      Statsmodels for a radiation detection R\&D project, utilizing data from
-	      continuously streaming sensors.
-
-	\item Enhanced the scalability of models initially prototyped by our team of
-	      Analysts and Data Scientists for training on our internal high-performance
-	      computing (HPC) cluster. My role involved refactoring the existing code to
-	      enable efficient execution in a distributed and parallel setting with
-	      PyTorch's DistributedDataParallel.
-
-	\item Developed and deployed a Django web interface with Docker Compose,
-	      enabling non-technical staff to add nodes and connections to the company's
-	      Neo4j graph database, without knowledge of the query syntax.
+  \item \textbf{Image Denoising with Diffusion}: Trained a denoising
+    diffusion probabilistic model (DDPM) to clean up scientific images with
+    noise artifacts. Tuned model architecture and noise schedules to achieve
+    effective overfitting and generalization.
+	
+  \item \textbf{Vehicle Detection Using YOLOv5}: Developed a YOLOv5-based
+    object detection pipeline for a pattern-of-life project targeting
+    vehicle detection in aerial imagery. Fine-tuned model and deployed it on a
+    Jetson Nano for real-time inference.
+	
+  \item \textbf{Internal Neo4j Interface with Django}: Built and deployed a
+    Django application enabling non-technical users to manage the internal
+    Neo4j knowledge graph. Containerized the system using Docker and Docker
+    Compose for reproducible deployment across environments.
+	
+  \item \textbf{Maintainer of Internal Monolithic repo}: Maintain and evolve a
+    large-scale internal monorepo, enforcing development workflows, resolving
+    dependency issues, and improving CI/CD practices.
 \end{itemize}
-
 
 \textbf{\Large Technical Skills} \vspace{.2em} \hrule
 
@@ -62,7 +61,7 @@ Streamlit, Sqlalchemy
 
 \vspace{-.5em}
 
-\textbf{Developer Tools:} Git, AWS, Linux, Vim, SLURM, Docker, Neo4j
+\textbf{Developer Tools:} Git, Linux, Vim, Tmux, AWS, SLURM, Docker, Neo4j
 
 
 \textbf{\Large Personal Projects} \vspace{.2em} \hrule
@@ -77,7 +76,7 @@ base, adding new features and responding to ongoing issues.
 \textbf{\Large Education} \vspace{.2em} \hrule
 
 \textbf{Auburn University - Ph.D.} \hfill \textit{June 2022} \\
-Research Area: Probability (Stochastic Processes and Partial Differential Equations) \\
+Research area: Stochastic Partial Differential Equations \\
 Advisor: \href{http://webhome.auburn.edu/~lzc0090/}{Le Chen}
 
 \textbf{University of Nevada, Las Vegas - B.S./M.S.} \hfill
