@@ -34,31 +34,32 @@
 \textit{Nevada National Security Site}
 
 \begin{itemize}[leftmargin=*,nosep]
-    \item \textbf{LLM Inference Server (Piccata):}
-    Architected, deployed, and administer a multi-user LLM platform on a RHEL 
-    GPU server, exposing internally hosted models through OpenAI-compatible
-    \texttt{vLLM} APIs. Built a \texttt{FastAPI} gateway for authentication,
-    routing, usage tracking, and persistence; developed \texttt{libserverctl}
-    for user, API-key, certificate, and usage administration; and built a
-    \texttt{Streamlit} portal for access requests and provisioning API tokens
-    and client certificates. Deployed the platform with rootless \texttt{Podman},
-    \texttt{Nginx} reverse proxying and TLS/mTLS.
+    \item \textbf{LLM Inference Server (Piccata):} Architected, deployed, and
+    administered a multi-user LLM platform on a RHEL GPU server, exposing
+    internally hosted models through OpenAI-compatible \texttt{vLLM} APIs.
+    Built a \texttt{FastAPI} gateway for authentication, routing, usage
+    tracking, and persistence. Developed \texttt{libserverctl}, a python
+    library for user, API-key, certificate, and usage administration, and
+    built a \texttt{Streamlit} portal for access requests and provisioning
+    API tokens and client certificates. Deployed the platform with
+    \texttt{Podman}, \texttt{Nginx} reverse proxying and TLS/mTLS.
 
     \item \textbf{LLM-Assisted Image Annotation and Retrieval (Photo-Pilot):}
-    Designed and deployed a \texttt{Streamlit} application that enables users to
-    annotate and tag images with the assistance of multimodal LLMs hosted on
-    Piccata, persist image annotations and metadata in a SQL database, and query
-    the resulting image collection. Deployed the application on a RHEL server using
+    Designed and deployed a \texttt{Streamlit} application that enables users
+    to annotate and tag images with the assistance of multimodal LLMs hosted
+    on Piccata. The annotations and metadata were persisted in a SQL
+    database, and the portal allowed the users to query the resulting image
+    collection. Deployed the application on a RHEL server using
     \texttt{Podman}, with \texttt{Nginx} providing reverse proxying.
 
     \item \textbf{Python LLM Client Library (ChatLib):}
-    Developed and maintain an internal Python library built on the OpenAI SDK
-    that simplifies interaction with internally hosted LLMs, providing conversation
+    Developed and maintained an internal Python library built on the OpenAI SDK
+    that simplified interaction with internally hosted LLMs, providing conversation
     management, streaming, multimodal text and image inputs, response formatting,
     and a consistent interface for scientific and engineering applications.
 
     \item \textbf{Internal Scientific Software Monorepo:}
-    Maintain a large internal monorepo supporting ML and scientific
+    Maintained a large internal monorepo which supported ML and scientific
     applications, including shared Python libraries, dependency and release
     workflows, automated testing, CI/CD, and Linux deployment infrastructure.
 
@@ -90,9 +91,9 @@ Linux (RHEL, Ubuntu), Podman, Docker, Nginx, Git, CI/CD, SLURM, AWS
 \href{https://github.com/Vigemus/iron.nvim}
      {\textit{github.com/Vigemus/iron.nvim}}\\
 Sole maintainer of a cross-platform Neovim plugin written in Lua for
-interactive REPL integration. Own the project lifecycle including feature
-development, code review, releases, regression testing, issue triage, and
-technical support across Linux, macOS, and Windows.
+interactive REPL integration. I owned the project lifecycle including feature
+development, code review, releases, testing, issue triage, and technical
+support across Linux, macOS, and Windows.
 
 \textbf{\Large Education} \vspace{.2em} \hrule
 
