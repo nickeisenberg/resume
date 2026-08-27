@@ -1,0 +1,128 @@
+\documentclass[11pt]{article}
+
+\usepackage[left=0.6in,top=0.2in,right=0.6in,bottom=0.3in]{geometry}
+\usepackage[parfill]{parskip}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{amsmath,amsfonts}
+
+\linespread{1.05}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{center}
+    \bf \Huge Nicholas Eisenberg, Ph.D.
+    \vspace{.1em}
+    \hrule
+\end{center}
+
+\begin{center}
+    \vspace{0em}
+    702-354-0866 $\Big\Vert$
+    \href{mailto:nickeisenberg@gmail.com}{nickeisenberg@gmail.com} $\Big\Vert$
+    \href{https://www.linkedin.com/in/nick-eisenberg/}
+         {linkedin.com/in/nick-eisenberg} $\Big\Vert$
+    \href{https://github.com/nickeisenberg}
+         {github.com/nickeisenberg}
+\end{center}
+
+\textbf{\Large Experience} \vspace{.2em} \hrule
+
+\textbf{\large Senior Scientist - Machine Learning}
+\hfill \textit{June 2022 - Present}\\
+\textit{Nevada National Security Site}
+
+\begin{itemize}[leftmargin=*,nosep]
+    \item \textbf{Linux LLM Infrastructure (Piccata):}
+    Architected, deployed, and administer a multi-user LLM platform on a RHEL 
+    GPU server, exposing internally hosted models through OpenAI-compatible
+    \texttt{vLLM} APIs. Built a \texttt{FastAPI} gateway for authentication,
+    routing, usage tracking, and persistence; developed \texttt{libserverctl}
+    for user, API-key, certificate, and usage administration; and built a
+    \texttt{Streamlit} portal for access requests and provisioning API tokens
+    and client certificates. Deployed the platform with rootless \texttt{Podman},
+    \texttt{Nginx} reverse proxying and TLS/mTLS.
+
+    \item \textbf{LLM-Assisted Image Annotation and Retrieval (Photo-Pilot):}
+    Designed and deployed a \texttt{Streamlit} application that enables users to
+    annotate and tag images with the assistance of multimodal LLMs hosted on
+    Piccata, persist image annotations and metadata in a SQL database, and query
+    the resulting image collection. Deployed the application on a RHEL server using
+    \texttt{Podman}, with \texttt{Nginx} providing reverse proxying.
+
+    \item \textbf{Python LLM Client Library (ChatLib):}
+    Developed and maintain an internal Python library built on the OpenAI SDK
+    that simplifies interaction with internally hosted LLMs, providing conversation
+    management, streaming, multimodal text and image inputs, response formatting,
+    and a consistent interface for scientific and engineering applications.
+
+    \item \textbf{Internal Scientific Software Monorepo:}
+    Maintain a large internal monorepo supporting ML and scientific
+    applications, including shared Python libraries, dependency and release
+    workflows, automated testing, CI/CD, and Linux deployment infrastructure.
+
+    \item \textbf{Retrieval-Augmented Generation (RAG):}
+    Designed and deployed a RAG system for internal Python/C++ codebases and
+    technical documents, implementing language-aware ingestion, semantic
+    embeddings, HNSW vector retrieval, and locally hosted LLM inference.
+
+\end{itemize}
+
+\textbf{\Large Technical Skills} \vspace{.2em} \hrule
+
+\textbf{Programming Languages:}
+Python, Bash, Lua, SQL, Cypher, \LaTeX
+
+\vspace{-.5em}
+
+\textbf{Libraries:}
+PyTorch, Pandas, FastAPI, SQLAlchemy, Streamlit, Matplotlib, vLLM
+
+\vspace{-.5em}
+
+\textbf{Tools / Infrastructure:}
+Linux (RHEL, Ubuntu), Podman, Docker, Nginx, Git, CI/CD, SLURM, AWS
+
+\textbf{\Large Open-Source Projects} \vspace{.2em} \hrule
+\textbf{\large iron.nvim - Sole Maintainer}
+\hfill \textit{May 2024 - Present}\\
+\href{https://github.com/Vigemus/iron.nvim}
+     {\textit{github.com/Vigemus/iron.nvim}}\\
+Sole maintainer of a cross-platform Neovim plugin written in Lua for
+interactive REPL integration. Own the project lifecycle including feature
+development, code review, releases, regression testing, issue triage, and
+technical support across Linux, macOS, and Windows.
+
+\textbf{\Large Education} \vspace{.2em} \hrule
+
+\textbf{Auburn University - Ph.D.}
+\hfill \textit{June 2022}\\
+Research Area: Stochastic Partial Differential Equations\\
+Advisor: \href{http://webhome.auburn.edu/~lzc0090/}{Le Chen}
+
+\textbf{University of Nevada, Las Vegas - B.S./M.S.}
+\hfill \textit{December 2015 / January 2018}\\
+Applied Mathematics
+
+\textbf{\Large Publications} \vspace{.2em} \hrule
+
+\begin{itemize}[leftmargin=*,nosep]
+
+    \item[1:]
+    Eisenberg, N., Chen, L.
+    \href{https://doi.org/10.1007/s40072-022-00258-6}
+    {\textit{Interpolating the stochastic heat and wave equations with
+    time-independent noise: solvability and exact asymptotics.}}
+    Stoch PDE: Anal Comp (2022).
+
+    \item[2:]
+    Eisenberg, N., Chen, L.
+    \href{https://doi.org/10.1007/s10959-023-01302-4}
+    {\textit{Invariant Measures for the Nonlinear Stochastic Heat Equation
+    with No Drift Term.}}
+    J Theor Probab (2024).
+
+\end{itemize}
+
+\end{document}
