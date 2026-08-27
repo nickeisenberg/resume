@@ -1,99 +1,146 @@
-\documentclass[12pt]{article}
-\usepackage[left=0.6 in,top=0.2in,right=0.6in,bottom=0.3in]{geometry}
-\usepackage[parfill]{parskip} % Remove paragraph indentation
+\documentclass[11pt]{article}
 
-\usepackage{enumitem} \usepackage{hyperref} \usepackage{amsmath, amsfonts}
+\usepackage[left=0.6in,top=0.2in,right=0.6in,bottom=0.3in]{geometry}
+\usepackage[parfill]{parskip}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{amsmath,amsfonts}
 
-\begin{document} \thispagestyle{empty}
+\linespread{1.1}
 
-\begin{center} \bf \Huge  Nicholas Eisenberg, Ph.D. \vspace{.1em} \hrule
+\begin{document}
+\thispagestyle{empty}
+
+\begin{center}
+    \bf \Huge Nicholas Eisenberg, Ph.D.
+    \vspace{.1em}
+    \hrule
 \end{center}
 
-\begin{center} \vspace{0em} 702-354-0866 $\Big \Vert$
-	\href{mailto:nickeisenberg@gmail.com}{nickeisenberg@gmail.com} $\Big \Vert$
-	\href{https://www.linkedin.com/in/nick-eisenberg/}{linkedin.com/in/nick-eisenberg}
-	$\Big \Vert$
-	\href{https://github.com/nickeisenberg}{github.com/nickeisenberg}
+\begin{center}
+    \vspace{0em}
+    702-354-0866 $\Big\Vert$
+    \href{mailto:nickeisenberg@gmail.com}{nickeisenberg@gmail.com} $\Big\Vert$
+    \href{https://www.linkedin.com/in/nick-eisenberg/}
+         {linkedin.com/in/nick-eisenberg} $\Big\Vert$
+    \href{https://github.com/nickeisenberg}
+         {github.com/nickeisenberg}
 \end{center}
+
+%-------------------------------------------------------------------------------
+% Experience
+%-------------------------------------------------------------------------------
 
 \textbf{\Large Experience} \vspace{.2em} \hrule
 
-\textbf{\large Senior Scientist - Machine Learning} \hfill \textit{June 2022 - Present}\\
+\textbf{\large Senior Scientist - Machine Learning}
+\hfill \textit{June 2022 - Present}\\
 \textit{Nevada National Security Site}
 
-\begin{itemize} \setlength\itemsep{-.4em}
-  \item \textbf{Retrieval-Augmented Generation (RAG) System for Internal
-    Knowledge Base}: Designed and deployed a RAG system over internal Python/C++
-    codebases and company documents. Parsed source code using \texttt{AST},
-    \texttt{jedi}, and \texttt{clang.cindex} to create structured chunks, encoded
-    them with \texttt{all-MiniLM-L6-v2}, and indexed them using \texttt{hnswlib}
-    for fast vector search. Served the model with \texttt{vLLM} and integrated
-    the system into Open WebUI for accessible querying.
+\begin{itemize}[leftmargin=*,nosep]
 
-  \item \textbf{Image Denoising with Diffusion}: Trained a denoising
-    diffusion probabilistic model (DDPM) to clean up scientific images with
-    noise artifacts. Tuned model architecture and noise schedules to achieve
-    effective overfitting and generalization.
-	
-  \item \textbf{Vehicle Detection Using YOLOv5}: Developed a YOLOv5-based
-    object detection pipeline for a pattern-of-life project targeting vehicle
-    detection. Fine-tuned model and deployed it on a Jetson Nano for real-time
-    inference.
-	
-  \item \textbf{Neo4j Interface with Django}: Built and deployed a
-    Django application enabling non-technical users to manage the internal
-    Neo4j knowledge graph. Containerized the system using Docker and Docker
-    Compose for reproducible deployment across environments.
-	
-  \item \textbf{Maintainer of Internal Monolithic Repo}: Maintain and evolve a
-    large-scale internal monorepo, enforcing development workflows, resolving
-    dependency issues, and improving CI/CD practices.
+    \item \textbf{LLM Inference Platform (Piccata):}
+    Architected, deployed, and administer a multi-user LLM platform on Linux
+    GPU servers, exposing internally hosted models through OpenAI-compatible
+    \texttt{vLLM} APIs. Built a \texttt{FastAPI} gateway for authentication,
+    routing, usage tracking, and persistence; developed \texttt{libserverctl}
+    for user, API-key, certificate, and usage administration; and built a
+    \texttt{Streamlit} portal for requesting access and provisioning API tokens
+    and client certificates. Operate the platform with rootless \texttt{Podman},
+    \texttt{Nginx}, TLS/mTLS, and Linux networking.
+
+    \item \textbf{LLM-Assisted Image Annotation and Retrieval (Photo-Pilot):}
+    Designed and deployed a \texttt{Streamlit} application on Linux for
+    LLM-assisted image annotation and retrieval. Integrated multimodal LLMs
+    served through Piccata, persisted annotations and metadata in SQL, and
+    built an interface for querying tagged imagery. Deployed with
+    \texttt{Podman} and \texttt{Nginx}.
+
+    \item \textbf{Python LLM Client Library (ChatLib):}
+    Developed and maintain an internal Python library built on the OpenAI SDK,
+    providing a simplified interface to internally hosted LLMs with conversation
+    management, streaming, and model configuration.
+
+    \item \textbf{Retrieval-Augmented Generation (RAG):}
+    Designed and deployed a RAG system for internal Python/C++ codebases and
+    technical documents. Built language-aware ingestion with Python
+    \texttt{AST}, \texttt{Jedi}, and \texttt{Clang}, semantic embeddings, and
+    HNSW vector retrieval backed by locally hosted LLMs.
+
+    \item \textbf{Internal Scientific Software Monorepo:}
+    Maintain a large internal monorepo supporting ML and scientific applications,
+    including shared Python libraries, release workflows, automated testing,
+    CI/CD, and Linux deployment infrastructure.
+
 \end{itemize}
+
+%-------------------------------------------------------------------------------
+% Technical Skills
+%-------------------------------------------------------------------------------
 
 \textbf{\Large Technical Skills} \vspace{.2em} \hrule
 
-\textbf{Programming Languages:} Python, Bash, Lua, SQL, Cypher, \LaTeX
+\textbf{Languages:}
+Python, Bash, Lua, SQL, Cypher, \LaTeX
 
 \vspace{-.5em}
 
-\textbf{Libraries:} PyTorch, Pandas, Scikit-Learn, Matplotlib, Plotly, Django,
-Streamlit, Sqlalchemy
+\textbf{Libraries / Frameworks:}
+PyTorch, vLLM, FastAPI, Pandas, SQLAlchemy, Streamlit, Matplotlib, Plotly
 
 \vspace{-.5em}
 
-\textbf{Developer Tools:} Git, Linux, Vim, Tmux, AWS, SLURM, Docker, Neo4j
+\textbf{Infrastructure / Tools:}
+Linux, Podman, Docker, Nginx, Git, CI/CD, SLURM, AWS, Vim, Tmux
 
+%-------------------------------------------------------------------------------
+% Open Source
+%-------------------------------------------------------------------------------
 
-\textbf{\Large Personal Projects} \vspace{.2em} \hrule
+\textbf{\Large Open-Source Projects} \vspace{.2em} \hrule
 
-\textbf{iron.nvim Maintainer}
-(\href{https://github.com/Vigemus/iron.nvim}{GitHub link})\\
-iron.nvim is an interactive and cross operating system REPL plugin for neovim,
-written in Lua, that supports many interpretted languages such as Python, R,
-Lua and more. My roles as maintainer inlude ensuring the health of the code
-base, adding new features and responding to ongoing issues.
+\textbf{\large iron.nvim - Sole Maintainer}
+\hfill \textit{May 2024 - Present}\\
+\href{https://github.com/Vigemus/iron.nvim}
+     {\textit{github.com/Vigemus/iron.nvim}}\\
+Maintain a cross-platform Neovim REPL plugin written in Lua; develop features,
+review contributions, manage releases, and resolve community issues.
+
+%-------------------------------------------------------------------------------
+% Education
+%-------------------------------------------------------------------------------
 
 \textbf{\Large Education} \vspace{.2em} \hrule
 
-\textbf{Auburn University - Ph.D.} \hfill \textit{June 2022} \\
-Research area: Stochastic Partial Differential Equations \\
-Advisor: \href{http://webhome.auburn.edu/~lzc0090/}{Le Chen}
+\textbf{Auburn University - Ph.D.}
+\hfill \textit{June 2022}\\
+Stochastic Partial Differential Equations
 
-\textbf{University of Nevada, Las Vegas - B.S./M.S.} \hfill
-\textit{December 2015 / January 2018} \\
-Major: Applied Mathematics
+\textbf{University of Nevada, Las Vegas - B.S./M.S.}
+\hfill \textit{December 2015 / January 2018}\\
+Applied Mathematics
 
-\textbf{\Large Publications} \vspace{.3em} \hrule
+%-------------------------------------------------------------------------------
+% Publications
+%-------------------------------------------------------------------------------
 
-\begin{itemize}[leftmargin=*]
-	\item[1:] Eisenberg, N., Chen, L. Interpolating
-		the stochastic heat and wave equations with time-independent noise:
-		solvability and exact asymptotics. Stoch PDE: Anal Comp (2022).
-		\\\href{https://doi.org/10.1007/s40072-022-00258-6}{https://doi.org/10.1007/s40072-022-00258-6}
+\textbf{\Large Publications} \vspace{.2em} \hrule
 
-	\item[2:]  Eisenberg, N., Chen, L. Invariant Measures for the Nonlinear
-		Stochastic Heat Equation with No Drift Term. J Theor Probab (2024).
-		\href{https://doi.org/10.1007/s10959-023-01302-4}{https://doi.org/10.1007/s10959-023-01302-4}
+\begin{itemize}[leftmargin=*,nosep]
+
+    \item[1:]
+    Eisenberg, N., Chen, L.
+    \href{https://doi.org/10.1007/s40072-022-00258-6}
+    {\textit{Interpolating the stochastic heat and wave equations with
+    time-independent noise: solvability and exact asymptotics.}}
+    Stoch PDE: Anal Comp (2022).
+
+    \item[2:]
+    Eisenberg, N., Chen, L.
+    \href{https://doi.org/10.1007/s10959-023-01302-4}
+    {\textit{Invariant Measures for the Nonlinear Stochastic Heat Equation
+    with No Drift Term.}}
+    J Theor Probab (2024).
 
 \end{itemize}
 
